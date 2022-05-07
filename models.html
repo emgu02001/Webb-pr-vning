@@ -62,15 +62,36 @@
         </div>
         <div class="grid-item-1-3">
             <footer>
-                <form class="footer-flex-column" action="index.html">
+                <form class="footer-flex-column" action="index.html" method="post">
                     <div class="contact-form">
-                        <label>Epost</label>
+                        <label>Email</label>
                         <input type="email" name="email"/>
-                        <label> Rubrik</label>
+                        <label>Password</label>
+                        <input type="password" name="password"/>
+                        <label>Title</label>
                         <input type="text" name="title"/>
-                        <label>Meddelande</label>
+
+                        <fieldset>
+                            <legend>Gender</legend>
+                            <input type="radio" value="male" name="gender"/>
+                            <label>Male</label>
+                            <input type="radio" value="female" name="gender"/>
+                            <label>Female</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>You planes</legend>
+                            <input type="checkbox" value="motor" name="gender"/>
+                            <label>Motor</label>
+                            <input type="checkbox" value="glider" name="gender"/>
+                            <label>Glider</label>
+                            <input type="checkbox" value="jet" name="gender"/>
+                            <label>Jet</label>
+                        </fieldset>
+
+                        <label>Message</label>
                         <textarea name="message"></textarea>
-                        <input type="submit" value="Skicka">
+                        <input type="submit" value="send">
                     </div>
                 </form>
 

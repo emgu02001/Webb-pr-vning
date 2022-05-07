@@ -92,6 +92,10 @@ figure img{
     display: grid;
 }
 
+.contact-form fieldset{
+    grid-column: 2 / 3;
+}
+
 .contact-form label{
     grid-column: 1 / 2;
 }
