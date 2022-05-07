@@ -137,22 +137,33 @@ dl, dt{
 
 
 /** Components and parts css  **/
-#components-table{
+table{
     width: 100%;
     border: 1px solid #ece3e3;
     border-radius: 10px;
 }
 
-#components-table tbody tr:nth-child(odd){
+table tbody tr:nth-child(odd){
     background-color: #ece3e3;
 }
 
+table tr > td{
+    font-size: 1.2em;
+}
+
+table tr > th{
+    font-size: 1.4em;
+}
+
 .more-info:visited{
-    color: purple;
+    color: #850185;
 }
 .more-info:active{
-    color: red;
+    color: #ee0c0c;
 }
 .more-info:hover{
-    color: black;
+    color: #050505;
+}
+.more-info:focus{
+    color: #2d81a6;
 }
