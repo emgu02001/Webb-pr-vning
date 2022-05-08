@@ -14,13 +14,13 @@ main{
     margin: 0 auto;
 }
 
-/* css for youtube iframe **/
+/* css för youtube iframe **/
 iframe{
     min-height: 500px;
     width: 100%;
 }
 
-/** Grid layout with 3 columns  **/
+/** Grid layout med 3 kolumner  **/
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -45,43 +45,43 @@ iframe{
     grid-column: span 1;
 }
 
-/** Navigation */
+/** Navigation **/
 #main-menu{
     background-color: rgb(236, 227, 227);
 }
-
+/** id selektor för global meny ul **/
 #main-menu ul{
     padding: 0;
     margin: 0 auto;
     text-align: center;
 }
-
+/*dekoration för listan i menyn*/
 #main-menu ul li{
     display: inline-block;
     list-style-type: none;
 }
-
+/** specifikationer för länkarna i listan **/
 #main-menu ul li a{
     color: rgb(#000000);
     display: inline-block;
     padding: 20px;
     text-decoration-line: none;
 }
-
+/*ändrar färgen till vit när musen är över*/
 #main-menu ul li:hover{
     background-color: rgb(255,255,255);
 }
 
-/** Image with text **/
+/** bild med text **/
 figure {
     display: flex;
     align-items: center;
 }
-
+/*max width 300 pixlar för bild*/
 figure img{
     max-width: 300px;
 }
-
+/*Lägger formuläret i rätt kolumner*/
 .contact-form{
     display: grid;
 }
@@ -108,12 +108,12 @@ footer{
     width: 100%;
     background-color: black;
 }
-
+/** klass för formulär och flex  **/
 .footer-flex-column {
     padding: 10px;
     flex: 30.33%;
 }
-
+/*description list*/
 dl{
     margin: 0;
 }
@@ -124,25 +124,25 @@ dl, dt{
 }
 
 
-/** Components and parts css  **/
+/** Components och parts css  **/
 table{
     width: 100%;
     border: 1px solid #ece3e3;
     border-radius: 10px;
 }
-
+/*alla udda rader i tabellen får samma färg som menyn*/
 table tbody tr:nth-child(odd){
     background-color: #ece3e3;
 }
-
+ /** barnselektor gör så att td får en annan storlek  **/
 table tr > td{
     font-size: 1.2em;
 }
-
+/** barnselektor gör så att th får en annan storlek  **/
 table tr > th{
     font-size: 1.4em;
 }
-
+/**  LoVe HAte **/
 .more-info:visited{
     color: #850185;
 }
@@ -155,13 +155,13 @@ table tr > th{
 .more-info:focus{
     color: #2d81a6;
 }
-
+/** max width 700px för figure  **/
 @media (max-width: 700px){
     figure{
         flex-direction: column;
     }
 }
-
+/** max width meny 480px  **/
 @media (max-width: 480px){
     nav#main-menu ul li{
         display: block;

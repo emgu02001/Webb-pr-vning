@@ -1,16 +1,16 @@
-
+/** css kod för den lokala menyn **/
 nav#sub-menu ul li{
     display: inline-block;
     list-style-type: none;
 }
-
+/** svart text med 5pc padding **/
 nav#sub-menu ul li a{
     color: black;
     display: inline-block;
     padding: 5px;
     text-decoration-line: none;
 }
-
+/** border under texten och vit färg på texten när man har musen över **/
 nav#sub-menu ul li:hover{
     background-color: white;
     border-bottom: 1px solid black;
