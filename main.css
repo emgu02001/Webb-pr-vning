@@ -1,6 +1,8 @@
 body{
     font-size: 14px;
     font-family: sans-serif;
+	max-width: 960px;
+    margin: 0 auto;
 }
 
 h1{
@@ -9,10 +11,7 @@ h1{
     text-align: center;
 }
 
-main{
-    max-width: 960px;
-    margin: 0 auto;
-}
+
 
 /* css för youtube iframe **/
 iframe{
